@@ -1,4 +1,4 @@
-# ssh_test
+# SSH_test
 SSHのテスト
 
 以下の手順でできた
@@ -12,3 +12,7 @@ https://qiita.com/shizuma/items/2b2f873a0034839e47ce
    > ssh -T git@github.com  
    Hi (account名)! You've successfully authenticated, but GitHub does not provide shell access.
 1. sshでgitからクローンしたら、普通にpushできた！
+
+# .ssh内をuserprofileにコピーすれば、そのまま使える
+# userprofileの.gitconfigが変だと動かないので注意！
+# 
